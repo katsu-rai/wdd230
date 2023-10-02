@@ -92,3 +92,30 @@ footer {
   color: white;
   text-align: center;
 }
+
+#menu {
+  display: inline-block;
+  font-size: 8vw;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  color: white;
+  position: absolute;
+  right: 1vw;
+  top: 0.5vw;
+}
+
+#menu::before {
+  content: "≡";
+}
+
+#menu.show::before {
+  content: "x";
+}
+
+nav #navigation.show {
+  display: block;
+}
+
+nav #navigation {
+  display: none;
+}
