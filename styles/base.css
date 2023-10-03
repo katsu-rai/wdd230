@@ -8,6 +8,10 @@
   src: url(../fonts/mooli-regular.ttf);
 }
 
+main {
+  padding-bottom: 2vw;
+}
+
 .profile {
   width: 10vw;
   height: 10vw;
@@ -72,7 +76,6 @@ section {
   width: 90vw;
   margin: 10px auto 0 auto;
   border: 1px solid black;
-  border-radius: 5%;
 }
 
 section ul {
@@ -83,7 +86,6 @@ h3 {
   background-color: #aa1313;
   color: white;
   margin: 0;
-  border-radius: 5%;
   text-align: center;
 }
 
@@ -118,4 +120,19 @@ nav #navigation.show {
 
 nav #navigation {
   display: none;
+}
+
+footer :first-child {
+  padding-top: 1rem;
+}
+
+p {
+  margin: 0rem;
+  padding-bottom: 1rem;
+}
+
+.google-map {
+  margin: 3vw auto 0 5vw;
+  width: 90vw;
+  display: inline-block;
 }
