@@ -136,3 +136,7 @@ p {
   width: 90vw;
   display: inline-block;
 }
+
+.iframe{
+  width: 100%;
+}
