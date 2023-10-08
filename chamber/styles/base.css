@@ -1,0 +1,91 @@
+header {
+    background-color: #87b864;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+header div {
+    display: flex;
+    align-items: center;
+  }
+
+header p {
+    display: inline-block;
+    margin: 0 0 0 1vw;
+}
+
+  .logo {
+    height: 100%;
+    width: 50px;
+    /* width: auto;
+    aspect-ratio: 1; */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  nav {
+    display: inline-block;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 1vw 0 1vw;
+  }
+  
+  nav li:last-child {
+    margin-right: 2vw;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  h1 {
+    font-family: "Shippori Mincho B1", serif;
+  }
+  
+  main {
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+
+  main img{
+    width: 80vw;
+  }
+  
+
+  footer {
+    background-color: #87b864;
+    color: white;
+  }
+  
+  footer p {
+    margin: 0;
+    padding: 1vw;
+  }
+  
+  .color {
+    display: inline-block;
+  }
+  
+  .color-header {
+    background-color: #87b864;
+  }
+  
+  .color-main {
+    background-color: white;
+  }
+  
+  .color-footer {
+    background-color: #87b864;
+  }
+  
