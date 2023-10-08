@@ -40,4 +40,27 @@
   #menu {
     display: none;
   }
+
+
+  nav #navigation {
+    display: block;
+    font-size: 2vw;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    color: white;
+    position: static;
+    margin: 0;
+  }
+
+  nav #navigation ul {
+    display: flex;
+    justify-content: space-betweens;
+    align-items: center;
+  }
+
+  nav #navigation li {
+    display: inline-block;
+    padding: 0;
+    margin: 1vw 2vw 0 2vw;
+  }
 }
