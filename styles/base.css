@@ -1,12 +1,4 @@
-@font-face {
-  font-family: Mooli;
-  src: url(../fonts/mooli-regular.ttf);
-}
-
-@font-face {
-  font-family: RobotoCondensed;
-  src: url(../fonts/mooli-regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto+Condensed&display=swap');
 
 main {
   padding-bottom: 2vw;
@@ -31,7 +23,7 @@ h1 {
   display: inline-block;
   vertical-align: middle;
   font-size: 4vw;
-  font-family: RobotoCondensed;
+  font-family: 'Roboto Condensed', sans-serif;
   height: 1.5em;
   margin: auto 0 auto 0;
   color: white;
@@ -44,7 +36,7 @@ nav ul {
 nav li {
   list-style-type: none;
   vertical-align: middle;
-  font-family: RobotoCondensed;
+  font-family: 'Roboto Condensed', sans-serif;
   padding-bottom: 2vw;
 }
 
