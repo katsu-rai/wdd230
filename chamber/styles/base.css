@@ -15,15 +15,36 @@ header p {
     margin: 0 0 0 1vw;
 }
 
-  .logo {
+.logo {
     height: 100%;
     width: 50px;
     /* width: auto;
     aspect-ratio: 1; */
-  }
+}
   
+#menu {
+    display: inline-block;
+    font-size: 9vw;
+    text-decoration: none;
+    margin-right: 3vw;
+    color: white;
+    position: static;
+}
+  
+#menu::before {
+    content: "≡";
+}
+  
+#menu.show::before {
+    content: "x";
+}
+
   nav ul {
     list-style: none;
+    display: none;
+  }
+
+  #navigation.show {
     display: inline-block;
   }
   
