@@ -5,10 +5,10 @@ header {
     justify-content: space-between;
   }
 
-header div {
-    display: flex;
-    align-items: center;
+  nav {
+    background-color: #87b864;
   }
+
 
 header p {
     display: inline-block;
@@ -21,31 +21,10 @@ header p {
     /* width: auto;
     aspect-ratio: 1; */
 }
-  
-#menu {
-    display: inline-block;
-    font-size: 9vw;
-    text-decoration: none;
-    margin-right: 3vw;
-    color: white;
-    position: static;
-}
-  
-#menu::before {
-    content: "≡";
-}
-  
-#menu.show::before {
-    content: "x";
-}
 
   nav ul {
     list-style: none;
     display: none;
-  }
-
-  #navigation.show {
-    display: inline-block;
   }
   
   nav {
