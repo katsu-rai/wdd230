@@ -1,6 +1,7 @@
-const input = document.querySelectro('#favchap');
-const button = document.querySelectro('button');
-const list = document.querySelectro('#list');
+const input = document.querySelector('#favchap');
+const button = document.querySelector('button');
+const list = document.querySelector('#list');
+
 
 button.addEventListener('click', () => {
     if (input.value != '') 
@@ -11,12 +12,10 @@ button.addEventListener('click', () => {
         deleteButton.textContent = 'x'
         li.append(deleteButton);
         list.append(li);
- 
+        deleteButton.addEventListener('click', () => {
+            list.removeChild(li);
+            input.focus();
+            input.value = '';
+        })
     }
-})
-
-deleteButton.addEventListener('click', () => {
-    list.removeChild(li);
-    input.focus();
-    input.value = '';
 })
