@@ -36,19 +36,22 @@
         <nav>
           <a id="menu" href="#"></a>
           <ul id="navigation">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
-            <li>
-              <label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-              </label>
-            </li>
+            <div class="nav-list-wrapper">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+              <li>
+                Dark Mode
+                <label class="switch">
+                  <input id="mode" type="checkbox">
+                  <span class="slider round"></span>
+                </label>
+              </li>
+            </div>
           </ul>
         </nav>
     </header>
-      <main>
+      <main id="dark-mode">
         <img src="images/rice_field.jpeg" alt="rice_field">
         <section class="call-to-action">Call to Action</section>
         <section class="current-event">Current Events</section>
@@ -63,5 +66,6 @@
       </footer>
       <script src="./scripts/getdates.js"></script>
       <script src="./scripts/hamburger_menu.js"></script>
+      <script src="./scripts/dark_mode.js"></script>
 </body>
 </html>

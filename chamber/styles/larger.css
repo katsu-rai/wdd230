@@ -10,6 +10,7 @@
     nav ul {
         list-style: none;
         display: inline-block;
+        width: auto;
       }
       
       nav {
@@ -18,10 +19,37 @@
       
       nav li {
         display: inline-block;
-        margin: 0 1vw 0 1vw;
+        margin: 0 2vw 0 2vw;
       }
       
       nav li:last-child {
         margin-right: 2vw;
       }
+
+      nav li {
+        display: inline-block;
+        margin: 0 1vw 0 1vw;
+      }
+
+      #navigation {
+        display: block;
+        margin: 0;
+      }
+
+      .nav-list-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr, 1fr, 1fr;
+        grid-gap: 2vw;
+      }
+
+      nav li {
+        display: inline-block;
+        grid-row: 1/2;
+        margin: 12px 0 12px 0;
+      }
+
+      .switch {
+        margin-left: 10px;
+      }
+    
 }
