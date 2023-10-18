@@ -1,4 +1,8 @@
 @media screen and (min-width: 1024px) {
+    #menu {
+        display: none;
+    }
+
     nav ul {
         list-style: none;
         display: inline-block;
@@ -16,17 +20,4 @@
       nav li:last-child {
         margin-right: 2vw;
       }
-
-      .navbar {
-        display: none;
-      }
-
-    .pc-nav {
-        display: flex;
-        align-items: center;
-    }
-
-    .pc-nav ul {
-        margin-bottom: 0;
-    }
 }

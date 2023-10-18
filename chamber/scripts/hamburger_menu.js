@@ -5,3 +5,8 @@ hambutton.addEventListener("click", () => {
   mainnav.classList.toggle("show");
   hambutton.classList.toggle("show");
 });
+
+mainnav.addEventListener("click", () => {
+  mainnav.classList.toggle("show");
+  hambutton.classList.toggle("show");
+});
