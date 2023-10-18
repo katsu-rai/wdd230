@@ -43,9 +43,18 @@ header p {
 #menu::before {
     content: "≡";
 }
+
+#close-button {
+  display: none;
+}
   
-#navigation.show::before {
-    content: "x";
+#close-button.show {
+  display: inline-block;
+  font-size: 4vw;
+  position: absolute;
+  top: 1vw;
+  right: 4vw;
+  z-index: 2;
 }
 
   nav ul {
