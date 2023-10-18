@@ -3,6 +3,10 @@
         display: none;
     }
 
+    #navigation a {
+      color: white;
+    }
+
     nav ul {
         list-style: none;
         display: inline-block;
