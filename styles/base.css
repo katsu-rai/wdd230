@@ -132,3 +132,22 @@ p {
 .iframe{
   width: 100%;
 }
+
+picture .temple-img {
+  width: 100%;
+  height: auto;
+}
+
+.temple-name-card {
+  display: inline-block;
+  position: absolute;
+  top: 30vw;
+  left: 4vw;
+  width: 35vw;
+  height: 10vw;
+  border: black 1px solid;
+  text-align: center;
+  font-size: 3vw;
+  line-height: 11vw;
+  background-color: aliceblue;
+}
