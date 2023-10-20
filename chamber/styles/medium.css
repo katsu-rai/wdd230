@@ -2,4 +2,8 @@
     #menu {
         font-size: 54px;
     }
+
+    .dark-mode{
+        top: 18px;
+    }
 }

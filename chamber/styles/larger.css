@@ -52,4 +52,11 @@
         margin-left: 10px;
       }
     
+      nav li:last-child {
+        display: flex;
+      }
+
+      .dark-mode {
+        display: none;
+      }
 }
