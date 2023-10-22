@@ -60,11 +60,20 @@
         </div>
     </header>
       <main id="dark-mode">
-        <img src="images/rice_field.webp" alt="rice_field">
+        <!-- <img src="images/rice_field.webp" alt="rice_field"> -->
+        <picture>
+          <source srcset="./images/hero.webp" media="(min-width: 1024px)">
+          <source srcset="./images/hero_medium.webp" media="(min-width: 600px)">
+          <img class="hero_img" src="./images/hero_small.webp" alt="hero_img">
+        </picture>
         <h1>Chamber of Commerce</h1>
         <section class="call-to-action">Call to Action</section>
         <section class="current-event">Current Events</section>
-        <section class="weather-card">Weather Cards</section>
+        <section class="weather-card">
+          <p>Temperature: <span id="temperature">45</span>°F</p>
+          <p>Wind Speed: <span id="wind-speed">3.5</span>mph</p>
+          <p>Wind Chill: <span id="wind-chill"></span></p>
+        </section>
         <section class="spotlight">Spotlight Advertisment</section>
       </main>
       <footer>
@@ -76,5 +85,6 @@
       <script src="./scripts/getdates.js"></script>
       <script src="./scripts/hamburger_menu.js"></script>
       <script src="./scripts/dark_mode.js"></script>
+      <script src="./scripts/windchill.js"></script>
 </body>
 </html>
