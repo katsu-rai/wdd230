@@ -173,6 +173,14 @@ nav li:last-child {
   display: none;
 }
 
+.hero_img {
+  width: 100%;
+}
+
+.body {
+  margin: 2em;
+}
+
   /* -----------switch--------------- */
   /* The switch - the box around the slider */
 .switch {
