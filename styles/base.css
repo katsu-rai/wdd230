@@ -151,3 +151,19 @@ picture .temple-img {
   line-height: 11vw;
   background-color: aliceblue;
 }
+
+.label {
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
+
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+.information p {
+	margin: 1em;
+  padding-bottom: 0;
+}
