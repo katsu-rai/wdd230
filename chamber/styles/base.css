@@ -246,3 +246,39 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
   /* -------------------------------- */
+
+
+.grid-sidebar {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.sidebar {
+  grid-column: 1/2;
+}
+
+.side-main {
+  grid-column: 2/3;
+}
+
+.side-section {
+  border: 1px black solid;
+  margin: 1.5em;
+  padding: 1em;
+}
+
+
+.label {
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
+
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+.discover-img {
+  width: 60vw;
+}
