@@ -282,3 +282,7 @@ input:checked + .slider:before {
 .discover-img {
   width: 60vw;
 }
+
+h1 {
+  margin: 2em;
+}
