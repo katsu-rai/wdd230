@@ -286,3 +286,17 @@ input:checked + .slider:before {
 h1 {
   margin: 2em;
 }
+
+nav li {
+  display: inline-block;
+}
+
+.calendar {
+  display: flex;
+  justify-content: center;
+}
+
+.calendar-table {
+  background-color: lightgrey; 
+  text-align: center;
+}
