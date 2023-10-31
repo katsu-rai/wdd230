@@ -55,6 +55,7 @@ header p {
   top: 1vw;
   right: 4vw;
   z-index: 2;
+  color: black;
 }
 
   nav ul {
@@ -67,9 +68,9 @@ header p {
   }
 
   #navigation.show {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
     background-color: white;
     color: black;
     margin: 0;
@@ -81,6 +82,23 @@ header p {
     height: 100vh;
     padding: 0;
   }
+
+  #navigation.show li {
+    grid-column: 6/7;
+  }
+
+  #navigation.show li:nth-child(1){
+    grid-row: 4/5;
+  }
+  #navigation.show li:nth-child(2){
+    grid-row: 5/6;
+  }
+  #navigation.show li:nth-child(3){
+    grid-row: 6/7;
+  }
+  /* #navigation.show
+  #navigation.show
+ */
 
   #navigation a {
     color: black;
