@@ -167,3 +167,7 @@ picture .temple-img {
 	margin: 1em;
   padding-bottom: 0;
 }
+
+.iframe {
+  border: 0;
+}
