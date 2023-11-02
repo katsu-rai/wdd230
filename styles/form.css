@@ -1,0 +1,20 @@
+form {
+    display: inline-block;
+    border: 1px solid black;
+    width: 20em;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto;
+}
+
+form * {
+    margin: 1em;
+}
+
+main {
+    display: block;
+}
