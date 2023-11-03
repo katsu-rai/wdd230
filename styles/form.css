@@ -15,6 +15,17 @@ form * {
     margin: 1em;
 }
 
+form {
+    padding: 1em;
+}
+
+
+
 main {
     display: block;
+}
+
+button {
+    width: 4em;
+    height: 1.5em;
 }

@@ -6,7 +6,7 @@
     <meta name="author" content="Rai Katsuragawa">
     <meta
       name="description"
-      content="This website is developed by Rai Katsuragawa for the class at BYUI WDD 230 - Web Frontend Development. This is course assignment portal"
+      content="This website is developed by Rai Katsuragawa to practice making a form."
     >
 
     <meta
@@ -20,7 +20,7 @@
       content="https://www.travelandleisure.com/thmb/WDrISq-WVEK8JILtZ1aCfsbcFVk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/blossoms-JCBUPDATE0318-bdd7bedb40cb4f1a84d05f98f06bd133.jpg"
     >
 
-    <title>Rai Katsuragawa - WDD 230 - Web Frontend Development</title>
+    <title>Form</title>
     <link rel="icon" href="images/favicon.jpeg" >
     <link
       rel="stylesheet"
@@ -58,15 +58,15 @@
         <div class="form-wrapper">
             <form action="">
                 <label for="username">Username</label>
-                <input type="text" id="username" name="username" required pattern="^[a-zA-Z0-9]{8}$">
+                <input type="text" id="username" name="username" required pattern="^[a-zA-Z0-9]{8,}$">
                 <br>
         
                 <label for="password">Password</label>
-                <input type="password" id="password" name="password" required pattern="^[a-zA-Z0-9]{8}$">
+                <input type="password" id="password" name="password" required pattern="^[a-zA-Z0-9]{8,}$">
                 <br>
         
                 <label for="confirmPassword">Confirm Password</label>
-                <input type="password" id="confirmPassword" name="confirmPassword" required oninput="checkPasswordMatch()">
+                <input type="password" id="confirmPassword" name="confirmPassword" required  onblur="checkPasswordMatch()">
                 <span id="passwordMatchMessage" style="color: red;"></span>
                 <br>
         
@@ -75,11 +75,11 @@
                 <br>
         
                 <label for="rating">Page Rating</label>
-                <input type="range" id="rating" name="rating" min="1" max="10" step="1" oninput="showRatingValue()">
+                <input type="range" id="rating" name="rating" min="1" max="10" step="1" onclick="showRatingValue()">
                 <span id="ratingValue"></span>
                 <br>
         
-                <input type="submit" value="Submit">
+                <button type="submit" value="Submit">Submit</button>
             </form>
         </div>
     </main>

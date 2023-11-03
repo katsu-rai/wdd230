@@ -4,13 +4,11 @@ function checkPasswordMatch() {
     var message = document.getElementById("passwordMatchMessage");
 
     if (password !== confirmPassword) {
-        message.innerHTML = "Passwords do not match. Please try again.";
-        document.getElementById("username").value = "";
-        document.getElementById("password").value = "";
+        message.innerText = "Passwords do not match. Please try again.";
         document.getElementById("confirmPassword").value = "";
-        document.getElementById("username").focus();
+        document.getElementById("confirmPassword").focus();
     } else {
-        message.innerHTML = "";
+        message.innerHTL = "";
     }
 }
 
