@@ -1,7 +1,15 @@
+:root{
+    -text-color: black;
+    -warning-color: red;
+    -background-color: white;
+
+}
+
 form {
     display: inline-block;
     border: 1px solid black;
     width: 20em;
+    color: var(-text-color);
 }
 
 .form-wrapper {
@@ -23,9 +31,14 @@ form {
 
 main {
     display: block;
+    background-color: var(-background-color);
 }
 
 button {
     width: 4em;
     height: 1.5em;
+}
+
+#passwordMatchMessage {
+    color: var(-warning-color);
 }
