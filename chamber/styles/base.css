@@ -4,7 +4,7 @@ body {
 
 header {
     background-color: #87b864;
-    color: white;
+    color: black;
     display: flex;
     justify-content: space-between;
   }
@@ -71,7 +71,7 @@ header p {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
-    background-color: white;
+    background-color: black;
     color: black;
     margin: 0;
     position: absolute;
@@ -139,7 +139,7 @@ header p {
   /* ------------------------------------------ */
   a {
     text-decoration: none;
-    color: white;
+    color: black;
   }
   
   a:hover {
@@ -157,7 +157,7 @@ header p {
 
   footer {
     background-color: #87b864;
-    color: white;
+    color: black;
   }
   
   footer p {
@@ -174,7 +174,7 @@ header p {
   }
   
   .color-main {
-    background-color: white;
+    background-color: black;
   }
   
   .color-footer {
@@ -236,7 +236,7 @@ nav li:last-child {
   width: 10px;
   left: 3px;
   bottom: 3px;
-  background-color: white;
+  background-color: black;
   -webkit-transition: .4s;
   transition: .4s;
 }
