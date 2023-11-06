@@ -372,6 +372,25 @@ button {
 .discover-img {
   aspect-ratio: 2/1;
 }
-.discover-img :hover {
-  box-shadow: 0 0 50px #333;
+
+main {
+  padding-bottom: 4em;
+}
+
+
+@media screen and (max-width: 680px) {
+  .grid-sidebar{
+    display: block;
+  }
+
+  .side-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+  .discover-img {
+    width: 80vw;
+  }
 }

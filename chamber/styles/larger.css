@@ -73,5 +73,14 @@
         grid-column: 3/4;
         width: 100%;
       }
+
+      .discover-img {
+        transition: width 0.3s, box-shadow 0.3s;
+      }
+      
+      .discover-img:hover {
+        box-shadow: 0 0 50px #333;
+        width: 65vw; /* You can adjust the width increase as desired */
+      }
 }
 
