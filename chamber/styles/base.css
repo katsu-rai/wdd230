@@ -50,7 +50,7 @@ header p {
   
 #close-button.show {
   display: inline-block;
-  font-size: 4vw;
+  font-size: 3em;
   position: absolute;
   top: 1vw;
   right: 4vw;
@@ -71,7 +71,7 @@ header p {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
-    background-color: black;
+    background-color: white;
     color: black;
     margin: 0;
     position: absolute;
@@ -84,7 +84,7 @@ header p {
   }
 
   #navigation.show li {
-    grid-column: 6/7;
+    grid-column: 5/7;
   }
 
   #navigation.show li:nth-child(1){
@@ -236,7 +236,7 @@ nav li:last-child {
   width: 10px;
   left: 3px;
   bottom: 3px;
-  background-color: black;
+  background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -335,7 +335,6 @@ form {
   display: inline-block;
   border: 1px solid black;
   width: 20em;
-  color: var(--text-color);
 }
 
 .form-wrapper {
