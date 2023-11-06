@@ -322,3 +322,46 @@ nav li {
 #navigation li {
   margin-right: 1em;
 }
+
+/* -------------form--------------- */
+:root{
+  --text-color: black;
+  --warning-color: red;
+  --background-color: white;
+
+}
+
+form {
+  display: inline-block;
+  border: 1px solid black;
+  width: 20em;
+  color: var(--text-color);
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em auto;
+}
+
+form * {
+  margin: 1em;
+}
+
+form {
+  padding: 1em;
+}
+
+button {
+  width: 4em;
+  height: 1.5em;
+}
+
+#passwordMatchMessage {
+  color: var(--warning-color);
+}
+
+.thank-you-main {
+  margin: 0 3em 3em 3em;
+}
