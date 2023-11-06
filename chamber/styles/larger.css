@@ -59,4 +59,19 @@
       .dark-mode {
         display: none;
       }
+
+      .grid-form-benefit {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .form-wrapper {
+        grid-column: 2/3;
+      }
+
+      #membershipBenefits{
+        grid-column: 3/4;
+        width: 100%;
+      }
 }
+

@@ -6,18 +6,18 @@
     <meta name="author" content="Rai Katsuragawa">
     <meta
       name="description"
-      content="This website has been developed to practice developping a chamber website."
+      content="This website has a form that users can fill out to join us."
     >
     <meta
       property="og:title"
-      content="Chamber of Commerce | Rai Katsuragawa"
+      content="Form | Rai Katsuragawa"
     >
     <meta property="og:type" content="website" >
     <meta property="og:url" content="https://katsu-rai.github.io/wdd230/chamber/index.html" >
     <meta
       property="og:image"
       content="https://images.squarespace-cdn.com/content/v1/5438e2c6e4b0b18459a8ca06/1614264507431-UV00YKIFEIL9L77U915L/GTJ-2020-1111-40.jpg?format=2500w">
-    <title>Chamber of Commerce' | Rai Katsuragawa</title>
+    <title>Form | Rai Katsuragawa</title>
     <link rel="icon" href="images/favicon.jpg" >
     <link
     rel="stylesheet"
@@ -58,62 +58,71 @@
         </div>
     </header>
       <main id="dark-mode">
-        <div class="form-wrapper">
+        <div class="grid-form-benefit">
 
-            <form action="thankyou.html" method="get">
-                <label for="firstName">First Name:</label>
-                <input type="text" name="firstName" id="firstName" required>
-    
-                <br>
-    
-                <label for="lastName">Last Name:</label>
-                <input type="text" name="lastName" id="lastName" required>
-    
-                <br>
-    
-                <label for="position">Title or Position:</label>
-                <input type="text" name="position" id="position" pattern="^[A-Za-z -]{7,}" title="Must contain only letters, hyphens, and spaces with a minimum of seven characters">
-    
-                <br>
-    
-                <label for="email">Email Address:</label>
-                <input type="email" name="email" id="email" required placeholder="example@example.com">
-    
-                <br>
-    
-                <label for="phone">Mobile Phone Number:</label>
-                <input type="tel" name="phone" id="phone" required>
-    
-                <br>
-    
-                <label for="organization">Business/Organization's Name:</label>
-                <input type="text" name="organization" id="organization" required>
-    
-                <br>
-    
-                <label for="membership">Membership Level:</label>
-                <select name="membership" id="membership">
-                <option value="NP Membership">NP Membership (No Fee)</option>
-                <option value="Bronze Membership">Bronze Membership</option>
-                <option value="Silver Membership">Silver Membership</option>
-                <option value="Gold Membership">Gold Membership</option>
-                </select>
-    
-                <br>
-    
-                <label for="description">Business/Organization's Description:</label>
-                <textarea name="description" id="description"></textarea>
-    
-                <br>
-    
-                <input type="hidden" name="timestamp" id="timestamp" value="">
-    
-                <br>
-    
-                <input type="submit" value="Submit">
-            </form>
+            <div class="form-wrapper">
+                <form action="thankyou.html" method="get">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" required>
+        
+                    <br>
+        
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" required>
+        
+                    <br>
+        
+                    <label for="position">Title or Position:</label>
+                    <input type="text" name="position" id="position" pattern="^[A-Za-z -]{7,}" title="Must contain only letters, hyphens, and spaces with a minimum of seven characters">
+        
+                    <br>
+        
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" required placeholder="example@example.com">
+        
+                    <br>
+        
+                    <label for="phone">Mobile Phone Number:</label>
+                    <input type="tel" name="phone" id="phone" required>
+        
+                    <br>
+        
+                    <label for="organization">Business/Organization's Name:</label>
+                    <input type="text" name="organization" id="organization" required>
+        
+                    <br>
+        
+                    <label for="membership">Membership Level:</label>
+                    <select name="membership" id="membership">
+                    <option value="NP Membership">NP Membership (No Fee)</option>
+                    <option value="Bronze Membership">Bronze Membership</option>
+                    <option value="Silver Membership">Silver Membership</option>
+                    <option value="Gold Membership">Gold Membership</option>
+                    </select>
+        
+                    <br>
+        
+                    <label for="description">Business/Organization's Description:</label>
+                    <textarea name="description" id="description"></textarea>
+        
+                    <br>
+        
+                    <input type="hidden" name="timestamp" id="timestamp" value="">
+        
+                    <br>
+        
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div id="membershipBenefits">
+                <h2>Membership Level Benefits:</h2>
+                <p><strong>NP Membership:</strong> No fee for non-profit organizations.</p>
+                <p><strong>Bronze Membership:</strong> Access to exclusive networking events. Enhanced marketing exposure for broader reach.</p>
+                <p><strong>Silver Membership:</strong> Business development workshops and training sessions. Advocacy support and a voice in local government relations.</p>
+                <p><strong>Gold Membership:</strong> Executive-level networking opportunities. Premium exposure and recognition within the community.</p>
+            </div>
         </div>
-      </main>
+    </main>
       <footer>
         <p>
           &copy;<span id="last-modified-year"></span> | Rai Katsuragwa | Japan | Last Modification:
