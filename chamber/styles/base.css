@@ -315,7 +315,7 @@ nav li {
 }
 
 .calendar-table {
-  background-color: lightgrey; 
+  background-color: lightgrey;
   text-align: center;
 }
 
@@ -367,4 +367,11 @@ button {
 
 #membershipBenefits {
   margin: 2em 3em;
+}
+
+.discover-img {
+  aspect-ratio: 2/1;
+}
+.discover-img :hover {
+  box-shadow: 0 0 50px #333;
 }
