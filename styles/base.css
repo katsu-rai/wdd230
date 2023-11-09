@@ -181,3 +181,8 @@ picture .temple-img {
   padding: 0;
   display: none;
 }
+
+.record-h1 {
+  color: black;
+  margin: 2em;
+}
