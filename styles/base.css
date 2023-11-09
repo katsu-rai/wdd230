@@ -171,3 +171,13 @@ picture .temple-img {
 .iframe {
   border: 0;
 }
+
+#rating {
+  margin-left: 0.5em;
+}
+
+.error-message {
+  color: red;
+  padding: 0;
+  display: none;
+}

@@ -55,39 +55,7 @@
       </ul>
     </nav>
     <main>
-        <div class="form-wrapper">
-            <form action="record.html" method="get">
-                <label for="username">Username
-                  <input type="text" id="username" name="username" required>
-                </label>
-                <br>
-        
-                <label for="password">Password
-                  <input type="password" id="password" name="password" required pattern="^[a-zA-Z0-9]{8,}$" onblur="validateInput(this.value)">
-                  <p id="validationMessage" class="error-message">Please follow the format of at least 8 alphanumeric characters.</p>
-                </label>
-                <br>
-        
-                <label for="confirmPassword">Confirm Password
-                  <input type="password" id="confirmPassword" name="confirmPassword" required  onblur="checkPasswordMatch()">
-                </label>
-                <span id="passwordMatchMessage"></span>
-                <br>
-        
-                <label for="email">Email
-                  <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address">
-                </label>
-                <br>
-        
-                <label for="rating">Page Rating
-                  <input type="range" id="rating" name="rating" min="1" max="10" step="1" onclick="showRatingValue()">
-                  <span id="ratingValue"></span>
-                </label>
-                <br>
-        
-                <button type="submit" value="Submit">Submit</button>
-            </form>
-        </div>
+        <h1>Thank you for the submission!</h1>
     </main>
     <footer>
       <p>&copy;2023</p>
@@ -101,3 +69,4 @@
     <script src="./scripts/form.js"></script>
   </body>
 </html>
+
