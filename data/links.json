@@ -1,18 +1,87 @@
-
 {
-    "lessons": [
-      {
-        "lesson": "02",
-        "links": [
-          {
-            "url":"lesson02/mediaquery.html",
-            "title":"Media Queries"
-          },
-          {
-            "url":"lesson02/design-principles.html",
-            "title":"Design Principles Document"
-          }
-        ]
-      }
-    ]
+  "lessons": 
+  [
+    {
+      "lesson": "01",
+      "links": 
+      [
+        {
+          "url":"lesson01/media-query.htm",
+          "title":"Media Queries"
+        }
+      ]
+    }, 
+    {
+      "lesson": "02",
+      "links": 
+      [
+        {
+          "url":"lesson02/design.html",
+          "title":"Design"
+        },
+        {
+          "url":"lesson02/design-principles.html",
+          "title":"Design Principles"
+        }
+      ]
+    },
+    {
+      "lesson": "03",
+      "links": 
+      [
+        {
+          "url":"https://codepen.io/katsu-rai/pen/GRPdavj",
+          "title":"Lesson3 Code Pen"
+        },
+        {
+          "url":"images/W3S_class_selector.png",
+          "title":"A screenshot of W3S for the exercises"
+        },
+        {
+          "url":"https://codepen.io/katsu-rai/pen/RwEJymz",
+          "title":"Hamburger Menu Code Pen"
+        }
+      ]
+    },
+    {
+      "lesson": "04",
+      "links": 
+      [
+        {
+          "url":"https://codepen.io/katsu-rai/pen/ZEVqbbx?editors=1100",
+          "title":"Code Pen Pseudo"
+        }
+      ]
+    },
+    {
+      "lesson": "05",
+      "links": 
+      [
+        {
+          "url":"./lesson05/bom.html",
+          "title":"Book of Mormon Favorite Chapters Application"
+        }
+      ]
+    },
+    {
+      "lesson": "06",
+      "links": 
+      [
+        {
+          "url":"images/landscape.webp",
+          "title":"Webp"
+        }
+      ]
+    }, 
+    {
+      "lesson": "07",
+      "links": 
+      [
+        {
+          "url":"lesson03/lazyload.html",
+          "title":"Lazy Loading"
+        }
+      ]
+    } 
+  ]
 }
