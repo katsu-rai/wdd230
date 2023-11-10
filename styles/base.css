@@ -186,3 +186,7 @@ picture .temple-img {
   color: black;
   margin: 2em;
 }
+
+#lessons li a{
+  margin-left: 1em;
+}
