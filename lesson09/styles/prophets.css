@@ -10,9 +10,8 @@ h2 {
 
 
 #cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 5px;
     background-color: rgb(221, 221, 221);
     box-shadow: 0 0 30px #777;
