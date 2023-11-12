@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    color: rgb(77, 77, 150);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+
+#cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    background-color: rgb(221, 221, 221);
+    box-shadow: 0 0 30px #777;
+    padding: 1em;
+}
+
+#cards p {
+    text-align: center;
+    color: black;
+    margin: 7px 0;
+}
+
+#card img {
+    width: 100px;
+    height: auto;
+}
+
+section {
+    background-color: rgb(185, 185, 204);
+    border: 1px solid rgb(77, 77, 150);
+    color: rgb(77, 77, 150);
+    padding: 0 2em 0.7em 2em;
+    padding-bottom: 0.7em;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    box-shadow: 0 0 30px #777;
+}
