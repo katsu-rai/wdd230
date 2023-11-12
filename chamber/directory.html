@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rai Katsuragawa">
+    <meta
+      name="description"
+      content="This website has been developed to practice developping a chamber website."
+    >
+    <meta
+      property="og:title"
+      content="Chamber of Commerce | Rai Katsuragawa"
+    >
+    <meta property="og:type" content="website" >
+    <meta property="og:url" content="https://katsu-rai.github.io/wdd230/chamber/index.html" >
+    <meta
+      property="og:image"
+      content="https://images.squarespace-cdn.com/content/v1/5438e2c6e4b0b18459a8ca06/1614264507431-UV00YKIFEIL9L77U915L/GTJ-2020-1111-40.jpg?format=2500w">
+    <title>Chamber of Commerce | Rai Katsuragawa</title>
+    <link rel="icon" href="images/favicon.jpg" >
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    >
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/larger.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="images/favicon.jpg" alt="company_logo" />
+            <a href="index.html"><p>Kenko Rice</p></a>
+        </div>
+        <nav>
+          <a id="menu" href="#"></a>
+          <a id="close-button">x</a>
+          <ul id="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+              Dark Mode
+              <label class="switch">
+                <input id="mode" type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </li>
+          </ul>
+        </nav>
+        <div class="dark-mode">
+          Dark Mode
+                  <label class="switch">
+                    <input class="mode" type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+        </div>
+    </header>
+      <main id="dark-mode">
+        
+      </main>
+      <footer>
+        <p>
+          &copy;<span id="last-modified-year"></span> | Rai Katsuragwa | Japan | Last Modification:
+          <span id="last-modified"></span>
+        </p>
+      </footer>
+      <script src="./scripts/getdates.js"></script>
+      <script src="./scripts/hamburger_menu.js"></script>
+      <script src="./scripts/dark_mode.js"></script>
+      <script src="./scripts/windchill.js"></script>
+</body>
+</html>
