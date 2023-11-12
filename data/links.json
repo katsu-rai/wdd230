@@ -10,7 +10,7 @@
           "title":"Media Queries"
         }
       ]
-    }, 
+    },
     {
       "lesson": "02",
       "links": 
@@ -72,7 +72,7 @@
           "title":"Webp"
         }
       ]
-    }, 
+    },
     {
       "lesson": "07",
       "links": 
@@ -82,7 +82,7 @@
           "title":"Lazy Loading"
         }
       ]
-    }, 
+    },
     {
       "lesson": "09",
       "links": 
@@ -92,6 +92,6 @@
           "title":"Json Prophets"
         }
       ]
-    } 
+    }
   ]
 }
