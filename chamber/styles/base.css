@@ -496,16 +496,15 @@ section {
 }
 
 .list section img {
-	display: none; /* smaller viewports only */
+	display: none;
 }
 
 .list section h3 {
 	font-size: 1rem;
-	font-family: Roboto, Helvetica, sans-serif;
 }
 
 .list section:nth-child(even) {
-	background-color: #bed;
+	background-color: #87b864;
 }
 
 section h3 {
@@ -518,7 +517,6 @@ section p {
 }
 
 section a {
-	font-family: "Roboto", Arial, sans-serif;
 	font-size: 0.85rem;
 	color: navy;
 	letter-spacing: 1.1pt;
@@ -526,11 +524,19 @@ section a {
 
 img {
 	height: auto;
-	max-width: 100%; /* Images are jerks - Seattle*/
+	max-width: 100%;
 }
 
 .grid section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+article a {
+  color: black;
+}
+
+article a:hover {
+  text-decoration: underline;
 }
