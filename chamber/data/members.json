@@ -10,9 +10,33 @@
             "membership": "Bronze"
         },
         {
-            "name": "Ania",
+            "name": "Taylor",
+            "address": "456 S 4th W",
+            "phoneNumber": "(123)000-0000",
+            "websiteURL": "https//xxx.com",
+            "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
+            "membership": "Silver"
+        },
+        {
+            "name": "Bryan",
+            "address": "123 S 1st W",
+            "phoneNumber": "(000)890-1234",
+            "websiteURL": "https//xxx.com",
+            "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
+            "membership": "Free"
+        },
+        {
+            "name": "Becky",
             "address": "123 S 1st W",
             "phoneNumber": "(000)000-0000",
+            "websiteURL": "https//xxx.com",
+            "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
+            "membership": "Gold"
+        },
+        {
+            "name": "Sophia",
+            "address": "59 N 3rd E",
+            "phoneNumber": "(123)000-6789",
             "websiteURL": "https//xxx.com",
             "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
             "membership": "Bronze"
@@ -26,9 +50,33 @@
             "membership": "Bronze"
         },
         {
-            "name": "Ania",
+            "name": "Taylor",
+            "address": "456 S 4th W",
+            "phoneNumber": "(123)000-0000",
+            "websiteURL": "https//xxx.com",
+            "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
+            "membership": "Silver"
+        },
+        {
+            "name": "Bryan",
+            "address": "123 S 1st W",
+            "phoneNumber": "(000)890-1234",
+            "websiteURL": "https//xxx.com",
+            "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
+            "membership": "Free"
+        },
+        {
+            "name": "Becky",
             "address": "123 S 1st W",
             "phoneNumber": "(000)000-0000",
+            "websiteURL": "https//xxx.com",
+            "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
+            "membership": "Gold"
+        },
+        {
+            "name": "Sophia",
+            "address": "59 N 3rd E",
+            "phoneNumber": "(123)000-6789",
             "websiteURL": "https//xxx.com",
             "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
             "membership": "Bronze"
@@ -42,9 +90,33 @@
             "membership": "Bronze"
         },
         {
-            "name": "Ania",
+            "name": "Taylor",
+            "address": "456 S 4th W",
+            "phoneNumber": "(123)000-0000",
+            "websiteURL": "https//xxx.com",
+            "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
+            "membership": "Silver"
+        },
+        {
+            "name": "Bryan",
+            "address": "123 S 1st W",
+            "phoneNumber": "(000)890-1234",
+            "websiteURL": "https//xxx.com",
+            "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
+            "membership": "Free"
+        },
+        {
+            "name": "Becky",
             "address": "123 S 1st W",
             "phoneNumber": "(000)000-0000",
+            "websiteURL": "https//xxx.com",
+            "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
+            "membership": "Gold"
+        },
+        {
+            "name": "Sophia",
+            "address": "59 N 3rd E",
+            "phoneNumber": "(123)000-6789",
             "websiteURL": "https//xxx.com",
             "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
             "membership": "Bronze"
