@@ -2,7 +2,7 @@
 {
     "members":[
         {
-            "name": "Ania",
+            "name": "Spencer",
             "address": "123 S 1st W",
             "phoneNumber": "(000)000-0000",
             "websiteURL": "https//xxx.com",
@@ -10,7 +10,7 @@
             "membership": "Bronze"
         },
         {
-            "name": "Taylor",
+            "name": "Jonathan",
             "address": "456 S 4th W",
             "phoneNumber": "(123)000-0000",
             "websiteURL": "https//xxx.com",
@@ -18,7 +18,7 @@
             "membership": "Silver"
         },
         {
-            "name": "Bryan",
+            "name": "Viktoriya",
             "address": "123 S 1st W",
             "phoneNumber": "(000)890-1234",
             "websiteURL": "https//xxx.com",
@@ -26,7 +26,7 @@
             "membership": "Free"
         },
         {
-            "name": "Becky",
+            "name": "Brandon",
             "address": "123 S 1st W",
             "phoneNumber": "(000)000-0000",
             "websiteURL": "https//xxx.com",
@@ -42,7 +42,7 @@
             "membership": "Bronze"
         },
         {
-            "name": "Ania",
+            "name": "Spencer",
             "address": "123 S 1st W",
             "phoneNumber": "(000)000-0000",
             "websiteURL": "https//xxx.com",
@@ -50,7 +50,7 @@
             "membership": "Bronze"
         },
         {
-            "name": "Taylor",
+            "name": "Jonathan",
             "address": "456 S 4th W",
             "phoneNumber": "(123)000-0000",
             "websiteURL": "https//xxx.com",
@@ -58,7 +58,7 @@
             "membership": "Silver"
         },
         {
-            "name": "Bryan",
+            "name": "Viktoriya",
             "address": "123 S 1st W",
             "phoneNumber": "(000)890-1234",
             "websiteURL": "https//xxx.com",
@@ -66,7 +66,7 @@
             "membership": "Free"
         },
         {
-            "name": "Becky",
+            "name": "Brandon",
             "address": "123 S 1st W",
             "phoneNumber": "(000)000-0000",
             "websiteURL": "https//xxx.com",
@@ -82,7 +82,7 @@
             "membership": "Bronze"
         },
         {
-            "name": "Ania",
+            "name": "Spencer",
             "address": "123 S 1st W",
             "phoneNumber": "(000)000-0000",
             "websiteURL": "https//xxx.com",
@@ -90,7 +90,7 @@
             "membership": "Bronze"
         },
         {
-            "name": "Taylor",
+            "name": "Jonathan",
             "address": "456 S 4th W",
             "phoneNumber": "(123)000-0000",
             "websiteURL": "https//xxx.com",
@@ -98,7 +98,7 @@
             "membership": "Silver"
         },
         {
-            "name": "Bryan",
+            "name": "Viktoriya",
             "address": "123 S 1st W",
             "phoneNumber": "(000)890-1234",
             "websiteURL": "https//xxx.com",
@@ -106,7 +106,7 @@
             "membership": "Free"
         },
         {
-            "name": "Becky",
+            "name": "Brandon",
             "address": "123 S 1st W",
             "phoneNumber": "(000)000-0000",
             "websiteURL": "https//xxx.com",
