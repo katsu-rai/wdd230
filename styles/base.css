@@ -190,3 +190,7 @@ picture .temple-img {
 #lessons li a{
   margin-left: 1em;
 }
+
+#weather-icon {
+  width: 2em;
+}
