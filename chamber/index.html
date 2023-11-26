@@ -38,8 +38,9 @@
           <a id="close-button">x</a>
           <ul id="navigation">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="#">Join</a></li>
             <li>
               Dark Mode
               <label class="switch">
@@ -51,27 +52,63 @@
         </nav>
         <div class="dark-mode">
           Dark Mode
-                  <label class="switch">
-                    <input class="mode" type="checkbox">
-                    <span class="slider round"></span>
-                  </label>
+          <label class="switch">
+            <input class="mode" type="checkbox">
+            <span class="slider round"></span>
+          </label>
         </div>
-    </header>
+      </header>
       <main id="dark-mode">
-        <!-- <img src="images/rice_field.webp" alt="rice_field"> -->
-        <picture>
-          <source srcset="./images/hero.webp" media="(min-width: 1024px)">
-          <source srcset="./images/hero_medium.webp" media="(min-width: 600px)">
-          <img class="hero_img" src="./images/hero_small.webp" alt="hero_img">
-        </picture>
+        <div class="here-img-button-wrapper">
+          <picture>
+            <source srcset="./images/hero.webp" media="(min-width: 1024px)">
+            <source srcset="./images/hero_medium.webp" media="(min-width: 600px)">
+            <img class="hero_img" src="./images/hero_small.webp" alt="hero_img">
+          </picture>
+          <button class="call-to-action"><a href="join.html">Join Us</a></button>
+        </div>
         <div class="body">
           <h1>Chamber of Commerce</h1>
-          <section class="call-to-action">Call to Action</section>
-          <section class="current-event">Current Events</section>
-          <section class="weather-card">
-            <p>Temperature: <span id="temperature">45</span>°F</p>
-            <p>Wind Speed: <span id="wind-speed">3.5</span>mph</p>
-            <p>Wind Chill: <span id="wind-chill"></span></p>
+          <section class="upcoming-event">
+            <h2>Upcoming Events</h2>
+            <div class="upcoming-event-content">
+              <ul>
+                <li>Wednesday at 7:00 pm: Chamber of Commerce Starting Meeting</li>
+                <li>December 10th at 7:00 pm: The Definition of The Best Leader</li>
+                <li>December 17th at 8:00 pm: How to Indenfity A Problem</li>
+                <li>December 21st at 7:00 pm: The Best Way to Network</li>
+              </ul>
+            </div>
+          </section>
+          <section class="weather-info">
+            <h2>Weather Infomation</h2>
+            <div class="weather-info-content">
+              <p>Today</p>
+              <p><img id="weather-icon" src="" alt=""></p>
+              <p><span id="current-temp"></span></p>
+              <p><span id="weather-name"></span></p>
+
+              <div id="forecast-box">
+                <section id="forecast1">
+                  <p><span id="forecast1-day"></span></p>
+                  <p>Min: <span id="forecast1-minTemp"></span>&deg;F</p>
+                  <p>Max: <span id="forecast1-maxTemp"></span>&deg;F</p>
+                </section>
+                <section id="forecast2">
+                  <p><span id="forecast2-day">Monday</span></p>
+                  <p>Min: <span id="forecast2-minTemp"></span>&deg;F</p>
+                  <p>Max: <span id="forecast2-maxTemp"></span>&deg;F</p>
+                </section>
+                <section id="forecast3">
+                  <p><span id="forecast3-day">Tuesday</span></p>
+                  <p>Min: <span id="forecast3-minTemp"></span>&deg;F</p>
+                  <p>Max: <span id="forecast3-maxTemp"></span>&deg;F</p>
+                </section>
+              </div>
+              <!-- <p>Temperature: <span id="temperature">45</span>°F</p>
+              <p>Wind Speed: <span id="wind-speed">3.5</span>mph</p>
+              <p>Wind Chill: <span id="wind-chill"></span></p> -->
+            </div>
           </section>
           <section class="spotlight">Spotlight Advertisment</section>
         </div>
@@ -82,9 +119,11 @@
           <span id="last-modified"></span>
         </p>
       </footer>
+      <script src="./scripts/weather.js"></script>
       <script src="./scripts/getdates.js"></script>
       <script src="./scripts/hamburger_menu.js"></script>
       <script src="./scripts/dark_mode.js"></script>
+      <script src="./scripts/forecast.js"></script>
       <script src="./scripts/windchill.js"></script>
 </body>
 </html>

@@ -540,3 +540,68 @@ article a {
 article a:hover {
   text-decoration: underline;
 }
+
+.call-to-action {
+  background-color: #87b864;
+  border-radius: 5px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 8em;
+  height: 3em;
+  border-color: white;
+}
+
+.here-img-button-wrapper{
+  position: relative;
+}
+
+.upcoming-event {
+  padding: 0;
+}
+
+.upcoming-event h2 {
+  background-color: #87b864;
+  padding: 0.5em;
+}
+
+.upcoming-event-content ul {
+  list-style: none;
+}
+
+.upcoming-event-content li {
+  margin: 1em;
+}
+
+.weather-info {
+  padding: 0;
+  margin-top: 3em;
+}
+
+.weather-info h2 {
+  background-color: #87b864;
+  padding: 0.5em;
+}
+
+.weather-info-content {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-info-content p {
+  font-weight: 400;
+}
+
+#weather-icon {
+  width: 3em;
+}
+
+#forecast-box {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
