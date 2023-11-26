@@ -308,6 +308,11 @@ h1 {
   margin: 2em;
 }
 
+.discover-h1 {
+  margin: 0;
+  padding: 2em;
+}
+
 nav li {
   display: inline-block;
 }
@@ -434,7 +439,6 @@ main {
 main {
 	margin: 0 auto;
 	padding: 0.5rem;
-	max-width: 700px;
 	background-color: #fff;
 	font-family: Roboto, Helvetica, sans-serif;
 }
@@ -455,7 +459,6 @@ main {
 section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #eee;
 }
 
 .grid {

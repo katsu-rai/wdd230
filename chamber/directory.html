@@ -28,36 +28,37 @@
     <link rel="stylesheet" href="./styles/larger.css">
 </head>
 <body>
-    <header>
-        <div>
-            <img class="logo" src="images/favicon.jpg" alt="company_logo" />
-            <a href="index.html"><p>Kenko Rice</p></a>
-        </div>
-        <nav>
-          <a id="menu" href="#"></a>
-          <a id="close-button">x</a>
-          <ul id="navigation">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
-            <li>
-              Dark Mode
-              <label class="switch">
-                <input id="mode" type="checkbox">
-                <span class="slider round"></span>
-              </label>
-            </li>
-          </ul>
-        </nav>
-        <div class="dark-mode">
+  <header>
+    <div>
+        <img class="logo" src="images/favicon.jpg" alt="company_logo" />
+        <a href="index.html"><p>Kenko Rice</p></a>
+    </div>
+    <nav>
+      <a id="menu" href="#"></a>
+      <a id="close-button">x</a>
+      <ul id="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li>
           Dark Mode
-                  <label class="switch">
-                    <input class="mode" type="checkbox">
-                    <span class="slider round"></span>
-                  </label>
-        </div>
-    </header>
-      <main id="dark-mode">
+          <label class="switch">
+            <input id="mode" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </li>
+      </ul>
+    </nav>
+    <div class="dark-mode">
+      Dark Mode
+      <label class="switch">
+        <input class="mode" type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </header>
+      <main class="dark">
           <div class="menu">
               <button id="grid">⏹️Grid</button>
               <button id="list">📄List</button>
@@ -77,6 +78,7 @@
       <script src="./scripts/getdates.js"></script>
       <script src="./scripts/hamburger_menu.js"></script>
       <script src="./scripts/dark_mode.js"></script>
+      <script src="./scripts/class_dark_mode.js"></script>
       <script src="./scripts/getmember.js"></script>
       <script src="./scripts/changedisplay.js"></script>
 </body>

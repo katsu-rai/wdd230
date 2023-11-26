@@ -58,7 +58,7 @@
           </label>
         </div>
       </header>
-      <main id="dark-mode">
+      <main class="dark">
         <div class="here-img-button-wrapper">
           <picture>
             <source srcset="./images/hero.webp" media="(min-width: 1024px)">
@@ -71,15 +71,15 @@
           <h1>Chamber of Commerce</h1>
           <section id="bannar">
             <h2>
-              ⭐️Join the event this Wednesday at 7:00 pm!⭐️
+              ⭐️Please attend a chamber of commerce meet and greet meeting Wednesday at 7:00 pm!⭐️
             </h2>
             <span id="bannar-close" onclick="deleteBannar()">❌</span>
           </section>
           <section class="upcoming-event">
             <h2>Upcoming Events</h2>
-            <div class="upcoming-event-content">
+            <div class="upcoming-event-content dark">
               <ul>
-                <li>Wednesday at 7:00 pm: Chamber of Commerce Starting Meeting</li>
+                <li>Wednesday at 7:00 pm: Chamber of Commerce Meet and Greet Meeting</li>
                 <li>December 10th at 7:00 pm: The Definition of The Best Leader</li>
                 <li>December 17th at 8:00 pm: How to Indenfity A Problem</li>
                 <li>December 21st at 7:00 pm: The Best Way to Network</li>
@@ -88,7 +88,7 @@
           </section>
           <section class="weather-info">
             <h2>Weather Infomation</h2>
-            <div class="weather-info-content">
+            <div class="weather-info-content dark">
               <p>Today</p>
               <p id="weather-icon"></p>
               <p><span id="current-temp"></span></p>
@@ -100,12 +100,12 @@
                   <p>Max: <span id="forecast1-maxTemp"></span>&deg;F</p>
                 </section>
                 <section id="forecast2">
-                  <p><span id="forecast2-day">Monday</span></p>
+                  <p><span id="forecast2-day"></span></p>
                   <p>Min: <span id="forecast2-minTemp"></span>&deg;F</p>
                   <p>Max: <span id="forecast2-maxTemp"></span>&deg;F</p>
                 </section>
                 <section id="forecast3">
-                  <p><span id="forecast3-day">Tuesday</span></p>
+                  <p><span id="forecast3-day"></span></p>
                   <p>Min: <span id="forecast3-minTemp"></span>&deg;F</p>
                   <p>Max: <span id="forecast3-maxTemp"></span>&deg;F</p>
                 </section>
@@ -128,6 +128,7 @@
       <script src="./scripts/getdates.js"></script>
       <script src="./scripts/hamburger_menu.js"></script>
       <script src="./scripts/dark_mode.js"></script>
+      <script src="./scripts/class_dark_mode.js"></script>
       <script src="./scripts/forecast.js"></script>
       <script src="./scripts/windchill.js"></script>
       <script src="./scripts/bannar.js"></script>
