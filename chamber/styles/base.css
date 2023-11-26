@@ -96,6 +96,9 @@ header p {
   #navigation.show li:nth-child(3){
     grid-row: 6/7;
   }
+  #navigation.show li:nth-child(4){
+    grid-row: 7/8;
+  }
   /* #navigation.show
   #navigation.show
  */
@@ -616,4 +619,18 @@ article a:hover {
   position: absolute;
   top: 0.3em;
   right: 0.3em;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  cursor: default;
+  box-sizing: border-box;
+  margin: 0em;
+  padding-block: 1px;
+  padding-inline: 6px;
+  border-width: 2px;
+  border-style: outset;
 }
