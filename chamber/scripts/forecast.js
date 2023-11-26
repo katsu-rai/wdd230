@@ -35,12 +35,10 @@ forecastApiFetch()
 
 const currentDate = new Date();
 
-currentDate.setDate(currentDate.getDate() + 1);
-let dayOfWeekTomorrow = currentDate.getDay();
-
 const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
-console.log(`Tomorrow is ${daysOfWeek[dayOfWeekTomorrow]}`);
+currentDate.setDate(currentDate.getDate() + 1);
+let dayOfWeekTomorrow = currentDate.getDay();
 const day1 = document.querySelector("#forecast1-day")
 day1.textContent = daysOfWeek[dayOfWeekTomorrow]
 
