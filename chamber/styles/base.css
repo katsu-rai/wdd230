@@ -557,6 +557,7 @@ article a:hover {
 }
 
 .upcoming-event {
+  margin-top: 3em;
   padding: 0;
 }
 
@@ -604,4 +605,15 @@ article a:hover {
   display: flex;
   justify-content: center;
   gap: 1em;
+}
+
+#bannar {
+  padding: 2em;
+  position: relative;
+}
+
+#bannar-close {
+  position: absolute;
+  top: 0.3em;
+  right: 0.3em;
 }
