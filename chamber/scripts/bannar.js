@@ -1,8 +1,11 @@
-const today = new Date();
+let today = new Date();
 const bannar = document.querySelector("#bannar")
 
-if(currentDate.getDay() == 3 || currentDate.getDay() == 4 || currentDate.getDay() == 5 || currentDate.getDay() == 6){
+if(today.getDay() == 3 || today.getDay() == 4 || today.getDay() == 5 || today.getDay() == 6){
     bannar.style.display = "none";
+}
+else{
+    bannar.style.display = "block";
 }
 
 function deleteBannar(){
