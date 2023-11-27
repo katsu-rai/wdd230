@@ -13,3 +13,9 @@ mainnav.addEventListener("click", () => {
   closebutton.classList.toggle("show")
   hambutton.classList.toggle("show");
 });
+
+closebutton.addEventListener("click", () => {
+  mainnav.classList.toggle("show");
+  closebutton.classList.toggle("show")
+  hambutton.classList.toggle("show");
+});
