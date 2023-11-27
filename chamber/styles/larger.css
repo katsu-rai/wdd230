@@ -83,6 +83,18 @@
         width: 65vw; /* You can adjust the width increase as desired */
       }
 
-      
+      .home-grid-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+      }
+
+      .upcoming-event {
+        margin: 0;
+      }
+
+      .weather-info {
+        margin: 0;
+      }
 }
 

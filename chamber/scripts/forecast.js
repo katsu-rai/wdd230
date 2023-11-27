@@ -45,9 +45,9 @@ day1.textContent = daysOfWeek[dayOfWeekTomorrow]
 currentDate.setDate(currentDate.getDate() + 1);
 dayOfWeekTomorrow = currentDate.getDay();
 const day2 = document.querySelector("#forecast2-day")
-day1.textContent = daysOfWeek[dayOfWeekTomorrow]
+day2.textContent = daysOfWeek[dayOfWeekTomorrow]
 
 currentDate.setDate(currentDate.getDate() + 1);
 dayOfWeekTomorrow = currentDate.getDay();
 const day3 = document.querySelector("#forecast3-day")
-day1.textContent = daysOfWeek[dayOfWeekTomorrow]
+day3.textContent = daysOfWeek[dayOfWeekTomorrow]
