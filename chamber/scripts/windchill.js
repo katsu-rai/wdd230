@@ -21,7 +21,12 @@ function displayWindchill(data){
     let windChill = 35.74 + 0.6215 * temp - 35.75 * windSpeed ** 0.16 + 0.4275 * temp * windSpeed ** 0.16
     windChill = windChill.toFixed(2)
     
+    const IdTemp = document.querySelector("#current-temp")
+    const IdWindspeed = document.querySelector("#wind-speed")
     const IdWindChill = document.querySelector("#wind-chill")
+
+    IdTemp.textContent = temp;
+    IdWindspeed.textContent = windSpeed;
     
     if (temp <= 50 && windSpeed > 3.0) {
         IdWindChill.innerHTML = "N/A"
