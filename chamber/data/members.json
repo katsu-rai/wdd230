@@ -15,7 +15,7 @@
             "phoneNumber": "(123)000-0000",
             "websiteURL": "https//xxx.com",
             "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
-            "membership": "Silver"
+            "membership": "Bronze"
         },
         {
             "name": "Viktoriya",
@@ -26,11 +26,11 @@
             "membership": "Free"
         },
         {
-            "name": "Brandon",
+            "name": "Gero Icecream Shop",
             "address": "123 S 1st W",
             "phoneNumber": "(000)000-0000",
             "websiteURL": "https//xxx.com",
-            "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
+            "image": "https://katsu-rai.github.io/wdd230/chamber/images/icecream_shop.webp",
             "membership": "Gold"
         },
         {
@@ -55,7 +55,7 @@
             "phoneNumber": "(123)000-0000",
             "websiteURL": "https//xxx.com",
             "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
-            "membership": "Silver"
+            "membership": "Free"
         },
         {
             "name": "Viktoriya",
@@ -66,11 +66,11 @@
             "membership": "Free"
         },
         {
-            "name": "Brandon",
+            "name": "Gero Bath House",
             "address": "123 S 1st W",
             "phoneNumber": "(000)000-0000",
             "websiteURL": "https//xxx.com",
-            "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
+            "image": "https://katsu-rai.github.io/wdd230/chamber/images/hot_spring.webp",
             "membership": "Gold"
         },
         {
@@ -90,11 +90,11 @@
             "membership": "Bronze"
         },
         {
-            "name": "Jonathan",
+            "name": "Gero Curry Resutaurant",
             "address": "456 S 4th W",
             "phoneNumber": "(123)000-0000",
             "websiteURL": "https//xxx.com",
-            "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
+            "image": "https://katsu-rai.github.io/wdd230/chamber/images/curry_restaurant.webp",
             "membership": "Silver"
         },
         {
@@ -111,7 +111,7 @@
             "phoneNumber": "(000)000-0000",
             "websiteURL": "https//xxx.com",
             "image": "https://katsu-rai.github.io/wdd230/chamber/images/placefolder.webp",
-            "membership": "Gold"
+            "membership": "Bronze"
         },
         {
             "name": "Sophia",

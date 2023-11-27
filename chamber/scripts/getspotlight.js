@@ -43,6 +43,4 @@ const displayLinks = (data) => {
         displayMembers.appendChild(card);
 
     });
-
-    console.log("done")
 }
