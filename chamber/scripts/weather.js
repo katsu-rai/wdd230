@@ -3,10 +3,10 @@ const weatherIconTag = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('#weather-name');
 const weatherIcon = document.createElement('img')
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=35.81&lon=137.25&appid=fcab982bf34e29b8f59c4a27d0d30ae7&units=imperial'
 35.81, 137.25
 
 async function apiFetch() {
+    const url = 'https://api.openweathermap.org/data/2.5/weather?lat=35.81&lon=137.25&appid=fcab982bf34e29b8f59c4a27d0d30ae7&units=imperial'
     try {
         const response = await fetch(url);
         if (response.ok) {
