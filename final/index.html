@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rai Katsuragawa">
+    <meta
+      name="description"
+      content="This is a website for scoots to promote their products"
+    >
+    <meta
+      property="og:title"
+      content="Home | Scoots"
+    >
+    <meta property="og:type" content="website" >
+    <meta property="og:url" content="https://katsu-rai.github.io/wdd230/final/index.html" >
+    <meta
+      property="og:image"
+      content="https://images.squarespace-cdn.com/content/v1/545ece7fe4b0edd3bdd2dbdf/9e42750a-f0df-4335-bce3-611a4e969995/Playa+del+Carmen+sign+near+ferry.jpg">
+    <title>Home | Scoots</title>
+    <link rel="icon" href="images/favion.png" >
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    >
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+</head>
+<body>
+    <header>
+        <h1>Scoots</h1>
+    </header>
+    <button id="hamburger-button">≡</button>
+    <nav id="main-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Rentals</a></li>
+            <li><a href="#">Reservations</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="here-img-button-wrapper">
+        <picture>
+            <source srcset="./images/beach.jpg" media="(min-width: 1024px)">
+            <source srcset="./images/beach_medium.jpg" media="(min-width: 600px)">
+            <img src="./images/beach_small.jpg" alt="hero_img">
+        </picture>
+        <div class="button call-to-action"><a href="#">Make a Reservation</a></div>
+    </div>
+    <main>
+        <section id="rental-types">
+            <h2>Rental Types</h2>
+            <div class="type1">
+                <h3>Honda Motor Scooters</h3>
+                <ul>
+                    <li>Honda Metropolitan (49cc) - 1 person</li>
+                    <li>Honda Dio (110cc) - 2 person</li>
+                    <li>Honda PCX150 (149cc) - 2 person</li>
+                </ul>
+            </div>
+            <div class="tyoe2">
+                <h3>Side-by-Side ATVs</h3>
+                <ul>
+                    <li>Honda Pioneer 1000 - 4 person</li>
+                </ul>
+            </div>
+            <div class="type3">
+                <h3>Jeeps</h3>
+                <ul>
+                    <li>Jeep Wrangler - 4 door manuel with A/C - 5 person</li>
+                    <li>Jeep Wrangler - 2 door - open air - manuel - 4 person</li>
+                </ul>
+            </div>
+        </section>
+        <section id="weather-info">
+            <div id="today-weather">
+                <h2>Weather Information</h2>
+                <p><span class="background-skyblue">Today</span></p>
+                <p id="weather-icon"></p>
+                <p><span id="current-temp"></span></p>
+                <p><span id="weather-name"></span></p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <div id="tomorrow-weather">
+                    <p><span class="background-skyblue">Tomorrow</span></p>
+                    <p><span id="tomorrow-condition"></span></p>
+                    <p>Max: <span id="tomorrow-max"></span> °C</p>
+                    <p>Min: <span id="tomorrow-min"></span> °C</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="grid-footer">
+            <div id="contact">
+                <p id="contact-number">+1(208)671-9963</p>
+                <p id="contact-email">info@scoots.com</p>
+                <p>Scoots @ <span id="last-modified-year"></span> - Rai Katsuragawa</p>
+            </div>
+            <div id="icons-footer">
+                <a href="https://www.facebook.com/">
+                    <img src="images/facebook_icon.png" alt="facebook_icon">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="images/instagram_icon.webp" alt="instagram_icon">
+                </a>
+                <a href="https://twitter.com/">
+                    <img src="images/x_icon.png" alt="x_icon">
+                </a>
+            </div>
+        </div>
+        <p>Last Modification: <span id="last-modified"></span></p>
+    </footer>
+    <script src="./scripts/getdates.js"></script>
+    <script src="./scripts/hamburger_menu.js"></script>
+    <script src="./scripts/getweather.js"></script>
+    <script src="./scripts/getforecast.js"></script>
+</body>
+</html>
