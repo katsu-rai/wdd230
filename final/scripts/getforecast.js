@@ -28,22 +28,3 @@ function displayForecast(data){
 }
 
 forecastApiFetch()
-
-// const currentDate = new Date();
-
-// const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-
-// currentDate.setDate(currentDate.getDate() + 1);
-// let dayOfWeekTomorrow = currentDate.getDay();
-// const day1 = document.querySelector("#forecast1-day")
-// day1.textContent = daysOfWeek[dayOfWeekTomorrow]
-
-// currentDate.setDate(currentDate.getDate() + 1);
-// dayOfWeekTomorrow = currentDate.getDay();
-// const day2 = document.querySelector("#forecast2-day")
-// day2.textContent = daysOfWeek[dayOfWeekTomorrow]
-
-// currentDate.setDate(currentDate.getDate() + 1);
-// dayOfWeekTomorrow = currentDate.getDay();
-// const day3 = document.querySelector("#forecast3-day")
-// day3.textContent = daysOfWeek[dayOfWeekTomorrow]

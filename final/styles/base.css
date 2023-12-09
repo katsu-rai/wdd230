@@ -71,6 +71,7 @@ nav {
     display: none;
     justify-content: center;
     font-size: 1.5em;
+    border-bottom: 1px solid var(--secondary-color);
 }
 
 nav li {
@@ -162,4 +163,28 @@ footer p {
 #icons-footer img{
     max-width: 2em;
     margin-right: 1em;
+}
+
+/* ----------- rental pricing ------------- */
+#h2-title {
+    margin-top: 2em;
+}
+
+table {
+    width: 90%;
+    background-color: rgb(235, 235, 235);
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+th {
+    font-weight: 700;
+    border: 1px solid grey;
+}
+
+tr td {
+    font-weight: 700;
+    border: 1px solid grey;
+    text-align: center;
 }
