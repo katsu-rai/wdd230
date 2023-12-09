@@ -14,9 +14,9 @@ async function priceApi() {
     }
 }
 
-function displayPrice(data.){
+function displayPrice(data){
 
-    console.log(data)
+    console.log(data.Honda_Metro_Scooter)
 }
 
 
