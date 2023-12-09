@@ -1,6 +1,6 @@
 {
     "vehicles" : {
-        "Honda Metro Scooter" : {
+        "Honda_Metro_Scooter" : {
             "name" : "Honda Metro Scooter",
             "capacity" : 1,
             "reservation" : {
@@ -12,7 +12,7 @@
                 "fullDay" : 35
             }
         },
-        "Honda Dio Scooter" : {
+        "Honda_Dio_Scooter" : {
             "name" : "Honda Dio Scooter",
             "capacity" : 2,
             "reservation" : {
@@ -24,7 +24,7 @@
                 "fullDay" : 45
             }
         },
-        "Honda PCX150 Scooter" : {
+        "Honda_PCX150_Scooter" : {
             "name" : "Honda PCX150 Scooter",
             "capacity" : 2,
             "reservation" : {
@@ -36,7 +36,7 @@
                 "fullDay" : 55
             }
         },
-        "Honda Pioneer ATV" : {
+        "Honda_Pioneer_ATV" : {
             "name" : "Honda Pioneer ATV",
             "capacity" : 4,
             "reservation" : {
@@ -48,7 +48,7 @@
                 "fullDay" : 80
             }
         },
-        "Jeep Wrangler - 4 door with a/c" : {
+        "Jeep_Wrangler_4door" : {
             "name" : "Jeep Wrangler - 4 door with a/c",
             "capacity" : 5,
             "reservation" : {
@@ -60,7 +60,7 @@
                 "fullDay" : 125
             }
         },
-        "Jeep Wrangler - 2 door" : {
+        "Jeep_Wrangler_2door" : {
             "name" : "Jeep Wrangler - 2 door",
             "capacity" : 4,
             "reservation" : {
