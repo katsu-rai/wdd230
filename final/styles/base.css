@@ -183,8 +183,21 @@ th {
     border: 1px solid grey;
 }
 
-tr td {
+tr:first-child {
     font-weight: 700;
+}
+
+table {
+    width: 100%;
+    margin: 1em auto;
+}
+
+#price-table tr:nth-child(2) {
+    font-weight: 700;
+}
+
+tr td {
     border: 1px solid grey;
     text-align: center;
+    padding: 0.5em 0.3em 0.5em 0.3em;
 }
