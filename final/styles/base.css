@@ -83,7 +83,6 @@ nav li {
 nav ul {
     display: grid;
     grid-template-columns: 1fr;
-    padding: auto;
 }
 /* ----------- main ------------- */
 main {
