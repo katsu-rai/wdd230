@@ -6,18 +6,18 @@
     <meta name="author" content="Rai Katsuragawa">
     <meta
       name="description"
-      content="This is a website for scoots to promote their products"
+      content="A user can make a reservation with the form here."
     >
     <meta
       property="og:title"
-      content="Home | Scoots"
+      content="Reservation | Scoots"
     >
     <meta property="og:type" content="website" >
     <meta property="og:url" content="https://katsu-rai.github.io/wdd230/final/index.html" >
     <meta
       property="og:image"
       content="https://images.squarespace-cdn.com/content/v1/545ece7fe4b0edd3bdd2dbdf/9e42750a-f0df-4335-bce3-611a4e969995/Playa+del+Carmen+sign+near+ferry.jpg">
-    <title>Home | Scoots</title>
+    <title>Reservation | Scoots</title>
     <link rel="icon" href="images/favion.png" >
     <link
     rel="stylesheet"
@@ -41,6 +41,94 @@
         </ul>
     </nav>
     <main>
+        <h2 id="h2-title">Make a Reservation</h2>
+        <form id="reservation-form"  action="thankyou.html" method="get">
+            <fieldset>
+                <legend>Rental</legend>
+                
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            
+                <label for="period">Rental Period:</label>
+                <input type="text" id="period" name="period" placeholder=" 3hours or full day" required>
+            
+                <label for="rentalType">Rental Type:</label>
+                <select id="rentalType" name="rentalType" required>
+                    <option value="Honda-Metro-Scooter">Honda Metro Scooter</option>
+                    <option value="Honda-Dio-Scooter">Honda Dio Scooter</option>
+                    <option value="Honda-PCX150-Scooter">Honda PCX150 Scooter</option>
+                    <option value="Honda-Pioneer-ATV">Honda Pioneer ATV</option>
+                    <option value="Jeep-Wrangler-4door-with-a/c">Jeep Wrangler - 4 door with a/c</option>
+                    <option value="Jeep-Wrangler-2door">Jeep Wrangler - 2 door</option>
+                </select>
+            
+                <label for="numberOfVehicles">Number of Vehicles:</label>
+                <input type="number" id="numberOfVehicles" name="numberOfVehicles" required>
+            
+            </fieldset>
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="homeLocation">Home State or Country:</label>
+                <input type="text" id="homeLocation" name="homeLocation" required>
+            
+            </fieldset>
+            <fieldset>
+                <legend>Others</legend>
+            
+                <label for="cruiseLine">Cruse Line:</label>
+                <input type="text" id="cruiseLine" name="cruiseLine" required>
+            
+                <label for="comment">Special Accommodation / Comment:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+            
+            </fieldset>
+
+            <input id="button" type="submit" value="Submit">
+        </form>
+        <section id="rental-requirement">
+            <ul>
+                <li>
+                    A $50 security deposit is required to confirm reservations.
+                </li>
+                <li>
+                    A valid drivers license is required in hand at the time of rental.
+                </li>
+                <li>
+                    No one under the age of 12 years of age are allowed to ride on the scooters.
+                </li>
+                <li>
+                    Fuel charge is not included.
+                </li>
+                <li>
+                    Unlimited mileage.
+                </li>
+                <li>
+                    Liability insurance is included.
+                </li>
+                <li>
+                    Damage insurance is available for purchase.
+                </li>
+                <li>
+                    Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.
+                </li>
+                <li>
+                    Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.
+                </li>
+                <li>
+                    Rentals may be returned to either physical location.
+                </li>
+            </ul>
+        </section>
     </main>
     <footer>
         <div id="grid-footer">
