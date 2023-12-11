@@ -116,7 +116,7 @@ picture img {
 }
 
 .button a {
-    color: white;
+    color: var(--text-color);
 }
 
 #rental-types ul {
@@ -279,7 +279,7 @@ form {
 form button {
     margin: 1em 0;
     background-color: var(--accent-color);
-    color: white;
+    color: var(--text-color);
     border-radius: 5px;
     border-color: white;
     padding: 0.5em;
@@ -329,7 +329,7 @@ form button {
 #reservation-form #button{
     margin: 2em 20em 2em 20em;
     background-color: var(--accent-color);
-    color: white;
+    color: var(--text-color);
     border-radius: 5px;
     border-color: white;
     padding: 0.5em;
