@@ -105,7 +105,7 @@ picture img {
 }
 
 .button {
-    background-color: var(--accent-color);
+    background-color: var(--primary-color);
     padding: 0.8em;
     border-radius: 7px;
     border-top: 1px solid white;
@@ -278,7 +278,7 @@ form {
 
 form button {
     margin: 1em 0;
-    background-color: var(--accent-color);
+    background-color: var(--primary-color);
     color: var(--text-color);
     border-radius: 5px;
     border-color: white;
@@ -328,7 +328,7 @@ form button {
 
 #reservation-form #button{
     margin: 2em 20em 2em 20em;
-    background-color: var(--accent-color);
+    background-color: var(--primary-color);
     color: var(--text-color);
     border-radius: 5px;
     border-color: white;
