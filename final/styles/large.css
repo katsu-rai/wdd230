@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #5DFDCB;
+    --secondary-color: #90D7FF;
+    --accent-color: #E26D5A;
+    --important-color: #B20D30;
+    --text-color: #0C120C; 
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        margin: 0 8em;
+    }
+
+    /*---------- nav change ------------*/
+    #hamburger-button {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+
+    }
+
+    nav ul li {
+        border-right: 1px solid var(--secondary-color);
+        padding: 0 3em;
+    }
+
+    nav ul li:last-child {
+        border-right: 0px solid var(--secondary-color);
+    }
+}

@@ -109,12 +109,19 @@ picture img {
     background-color: var(--accent-color);
     padding: 0.8em;
     border-radius: 7px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
 }
 
 .button a {
     color: white;
 }
 
+#rental-types ul {
+    padding-right: 1em;
+}
 
 #weather-info p {
     text-align: center;
@@ -177,7 +184,6 @@ table {
     border-spacing: 0;
 }
 
-
 th {
     font-weight: 700;
     border: 1px solid grey;
@@ -202,7 +208,11 @@ tr td {
     padding: 0.5em 0.3em 0.5em 0.3em;
 }
 
-/* ----------- access ------------- */
+#rental {
+    height: 67vh;
+}
+
+/* ----------- contact ------------- */
 #contact-info p {
     padding: 0 2em;
     margin-top: 2em;
@@ -252,11 +262,13 @@ select {
 input {
     display: block;
     margin: 0.5em 0;
+    padding: 0.3em;
 }
 
 textarea {
     display: block;
     margin: 0.5em 0;
+    padding: 0.3em;
 }
 
 form {
@@ -266,6 +278,11 @@ form {
 
 form button {
     margin: 1em 0;
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    padding: 0.5em;
 }
 
 /* ----------- thank you ------------- */
@@ -299,8 +316,8 @@ form button {
     width: 14em;
 }
 
-#reservation-form fieldset input:last-child {
-    margin-bottom: 2em;
+#reservation-form fieldset  {
+    padding-bottom: 1.5em;
 }
 
 #reservation-form fieldset {
